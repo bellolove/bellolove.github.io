@@ -1,0 +1,35 @@
+<html>
+  
+<head>
+  
+  <title>
+    Sofia's Portfolio Page 
+  </title>
+  
+</head>
+
+    <body>
+
+  <h1>Sofia Kissel</h1>
+<p>My Student studying fashion journalism.</p>
+  
+
+      <h1>This is a heading</h1>
+
+  <p>This is a paragraph.</p>
+
+      <img src="headshot.png" width="300" alt="Alter Ego"/>
+
+  <a href="https://harp-ranunculus-23l8.squarespace.com/config/">In process website</a>
+
+  <br/>
+
+      <iframe title="Lalalala" aria-label="Line chart" id="datawrapper-chart-pLv5t" src="https://datawrapper.dwcdn.net/pLv5t/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="395" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+
+    
+  </body>
+  
+
+
+</html>
+
