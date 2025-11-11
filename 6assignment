@@ -1,0 +1,27 @@
+<html>
+
+  <head>
+
+    <title>Sofia Kissel: Assignment 6</title>
+
+  </head>
+
+  <body>
+
+    <h1>Worldwide Apparel Market Trends pre and post pandemic</h1>
+
+
+<iframe title="Worldwide Apparel Market Trends pre and post pandemic" aria-label="Line chart" id="datawrapper-chart-AF4Fy" src="https://datawrapper.dwcdn.net/AF4Fy/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="540" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+    
+    <p>Worldwide apparel market revenues rose sharply in 2021 amid post-pandemic revenge spending, then leveled off by 2023 while remaining above 2019 levels. </p>
+
+    <p>This pivot table displays worldwide apparel revenue from 2019 to 2023 across four key categories: women’s, men’s, children’s, and other apparel. The data illustrates clear shifts in the global fashion market before, during, and after the COVID-19 pandemic.
+Overall, 2021 marks the highest revenue year for all categories - a peak that reflects the surge in consumer spending and revenge buying as the world reopened after lockdowns. Both men’s and women’s apparel saw dramatic growth between 2019 and 2021, driven by renewed social activity, increased online shopping, and post-pandemic lifestyle changes.
+By 2023, revenues slightly declined from the 2021 high but remained well above 2019 levels, signaling that the industry had stabilized at a new, higher baseline rather than returning to pre-pandemic numbers. Women’s apparel consistently generated the most revenue overall, followed by men’s, with other apparel also showing strong performance.
+This trend highlights fashion’s resilience and adaptability - even after global disruption, consumer demand for apparel remains robust. </p>
+    
+
+
+  </body>
+
+</html>
