@@ -13,66 +13,28 @@
       crossorigin="anonymous"
     />
 
-    <!-- Minimal custom styles so this works even without main.css -->
-    <style>
-      :root {
-        --sofia-accent: #c51f5d;
-      }
-      body {
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-          "Apple Color Emoji", "Segoe UI Emoji";
-      }
-      .newheader {
-        font-weight: 600;
-        padding: 1rem 0;
-        border-bottom: 2px solid #eee;
-        margin-bottom: 1rem;
-      }
-      .newheader a {
-        color: var(--sofia-accent);
-        text-decoration: none;
-        padding: 0 .25rem;
-      }
-      .newheader a:hover {
-        text-decoration: underline;
-      }
-      .tagline {
-        color: #6c757d;
-        margin-top: .25rem;
-      }
-      .headshot {
-        border-radius: 1rem;
-        box-shadow: 0 10px 25px rgba(0,0,0,.08);
-      }
-      footer {
-        border-top: 1px solid #eee;
-        margin-top: 3rem;
-        padding-top: 1.25rem;
-        color: #6c757d;
-      }
-      .badge-accent {
-        background: var(--sofia-accent);
-      }
-    </style>
+<link rel="stylesheet" href="style.css">
+
+
   </head>
   <body>
     <div class="container">
-      <!-- Header / Nav -->
-      <div class="row">
+        
+        
         <header class="newheader">
-          Meet Sofia Kissel |
-          JNL 221 |
-          <a href="about/index.html">About</a> |
-          <a href="work/index.html">Published Work</a> |
-          <a href="assignments/index.html">Assignments</a> |
-          <a href="final/index.html">Final Project</a>
-        </header>
-      </div>
+  Meet Sofia Kissel |
+  JNL 221 |
+  <a href="about/index.html">About</a> |
+  <a href="work/index.html">Published Work</a> |
+  <a href="assignments/index.html">Assignments</a> |
+  <a href="final/index.html">Final Project</a>
+</header>
 
-      <!-- Hero -->
-      <div class="row align-items-center g-4">
+
+
+  <div class="row align-items-center g-4">
         <div class="col-md-7">
-          <h1 class="mb-1">Sofia Kissel</h1>
+          <h1 class="sofia">Sofia Kissel</h1>
           <h2 class="h4 tagline">Fashion & culture journalist in training — Newhouse, Syracuse University</h2>
           <p class="mt-3">
             Hello! I’m a student journalist focused on fashion, beauty, and culture
@@ -105,7 +67,7 @@
             <h3 class="h5">Contact</h3>
             <ul class="list-unstyled">
               <li><a href="mailto:skissel@syr.edu">skissel@syr.edu</a></li>
-              <li><a href="mailto:sofia.kissel@example.com">sofia.kissel@example.com</a></li>
+             
             </ul>
           </div>
 
@@ -131,14 +93,19 @@
           </div>
 
           <div class="col">
-            <h3 class="h5">GitHub</h3>
-            <ul class="list-unstyled">
-              <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub Profile</a></li>
-              <li><a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener">Site Repository</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <h3 class="h5">GitHub</h3>
+  <ul class="list-unstyled">
+    <li>
+      <a href="https://github.com/" target="_blank" rel="noopener">
+        GitHub Profile
+      </a>
+    </li>
+  </ul>
+</div>
+
+           
+        
+    
 
       <!-- Feature section: About blurb + embedded chart -->
       <div class="row mt-4 g-4">
@@ -155,28 +122,27 @@
           <h3>Recent Data Viz</h3>
           <!-- Responsive Datawrapper embed -->
           <div class="ratio ratio-16x9">
-            <iframe
-              title="Fashion Chart"
-              aria-label="Chart"
-              id="datawrapper-chart-pLv5t"
-              src="https://datawrapper.dwcdn.net/pLv5t/1/"
-              scrolling="no"
-              frameborder="0"
-              style="width: 100%; border: 0;"
-              data-external="1"
-            ></iframe>
-          </div>
-          <script type="text/javascript">
-            window.addEventListener("message", function (event) {
-              if (undefined !== event.data["datawrapper-height"]) {
-                for (var chartId in event.data["datawrapper-height"]) 
-                {
-                  var iframe = document.getElementById("datawrapper-chart-" + chartId) || document.querySelector("iframe[src*='" + chartId + "']");
-                  if (iframe) iframe.style.height = event.data["datawrapper-height"][chartId] + "px";
-                }
-              }
-            });
-          </script>
+  <iframe
+    title="Worldwide Apparel Market Trends pre and post pandemic"
+    id="datawrapper-chart-AF4Fy"
+    src="https://datawrapper.dwcdn.net/AF4Fy/1/"
+    scrolling="no"
+    frameborder="0"
+    style="width: 100%; border: 0;"
+    data-external="1">
+  </iframe>
+</div>
+<script>
+  window.addEventListener("message", function (event) {
+    if (event.data["datawrapper-height"]) {
+      for (const chartId in event.data["datawrapper-height"]) {
+        const iframe = document.getElementById("datawrapper-chart-" + chartId);
+        if (iframe) iframe.style.height = event.data["datawrapper-height"][chartId] + "px";
+      }
+    }
+  });
+</script>
+
         </div>
       </div>
 
