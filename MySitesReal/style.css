@@ -73,3 +73,13 @@ h3 {
   font-weight: 600;
   margin-bottom: 1rem;
 }
+
+.navbar-brand svg {
+  color: var(--sofia-accent);
+  margin-bottom: 2px;
+  transition: .2s ease;
+}
+
+.navbar-brand:hover svg {
+  transform: scale(1.2) rotate(-8deg);
+}
