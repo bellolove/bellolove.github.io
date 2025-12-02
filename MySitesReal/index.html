@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sofia Kissel | JNL 221 | Fashion & Journalism</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+        <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+<link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body>
+    <div class="container">
+        
+        
+    <body>
+  <div class="container">
+
+    <!-- 🔹 BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light border-bottom mb-5">
+      <a class="navbar-brand fw-semibold" href="index.html">Sofia Kissel</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item"><a class="nav-link" href="about/index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="work/index.html">Published Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="assignments/index.html">Assignments</a></li>
+          <li class="nav-item"><a class="nav-link" href="final/index.html">Final Project</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- 🔹 HERO SECTION -->
+    <div class="row align-items-center g-5 mb-5">
+      <div class="col-md-7">
+        <h1 class="sofia mb-3">Sofia Kissel</h1>
+        <h2 class="h5 tagline mb-3">Fashion & culture journalist in training — Newhouse, Syracuse University</h2>
+        <p>
+          Hello! I’m a student journalist focused on fashion, beauty, and culture storytelling — blending reporting, data visuals, and editorial voice. I love turning trends into meaningful narratives about identity, labor, and the business of style.
+
+
+        </p>
+        <p>
+          <span class="badge badge-accent text-bg-primary">Currently building: portfolio + data stories</span>
+        </p>
+      </div>
+
+      <div class="col-md-5 text-center text-md-end">
+        <img src="headshot.jpg" class="img-fluid headshot" width="420" height="560" alt="Portrait of Sofia Kissel">
+      </div>
+    </div>
+
+    <!-- 🔹 FOUR GRID SECTIONS -->
+    <div class="container text-center mb-5">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <h3 class="h6 fw-bold">Contact</h3>
+          <a href="mailto:skissel@syr.edu">skissel@syr.edu</a>
+        </div>
+
+        <div class="col">
+          <h3 class="h6 fw-bold">Social</h3>
+          <a href="#">LinkedIn</a><br>
+          <a href="#">Instagram</a><br>
+          <a href="#">Bluesky</a>
+        </div>
+
+        <div class="col">
+          <h3 class="h6 fw-bold">Latest Projects</h3>
+          <a href="https://datawrapper.dwcdn.net/pLv5t/1/">Datawrapper Chart</a><br>
+          <a href="#">Portfolio (in progress)</a>
+        </div>
+
+        <div class="col">
+          <h3 class="h6 fw-bold">GitHub</h3>
+          <a href="#">GitHub Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 ABOUT + DATA VISUALIZATION -->
+    <div class="row mt-5 g-5">
+      <div class="col-md-6" style="padding-right: 20px;">
+        <h3 class="mb-3">About My Work</h3>
+        <p>
+          I report on the stories behind what we wear: from sustainability and labor to the psychology of trends and the economics of the beauty industry. I’m especially interested in translating data into visuals that normal readers can instantly understand.
+      </div>
+
+      <div class="col-md-6">
+        <h3 class="mb-3">Recent Data Visual</h3>
+        <div class="ratio ratio-16x9">
+          <iframe
+            title="Worldwide Apparel Market Trends pre and post pandemic"
+            id="datawrapper-chart-AF4Fy"
+            src="https://datawrapper.dwcdn.net/AF4Fy/1/"
+            scrolling="no"
+            frameborder="0"
+            style="width: 100%; border: 0;"
+            data-external="1">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 FOOTER -->
+    <footer class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
+      <small>© <span id="year"></span> Sofia Kissel</small>
+      <small>Built with <a href="https://getbootstrap.com/">Bootstrap 5</a></small>
+    </footer>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
